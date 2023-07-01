@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Estilo.css" />
+    <script src="javascript/script.js" defer></script>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div class="pri">
+      <a href="index.html"><button class="bot1">Retângulo</button></a>
+      <a href="triangulo.html"><button class="bot1">Triângulo</button></a>
+      <a href="circulo.html"><button class="bot1">Círculo</button></a>
+      <a href="Combustivel.html"><button class="bot1">Combustível</button></a>
+      <div class="cal">
+        <input id="rai" type="number" placeholder="Digite" />
+        <span class="span">3.14</span>
+        <h1 class="bas">Raio</h1>
+        <h1 class="pi">Pi</h1>
+
+        <button class="but" onclick="circulo()">Calcular</button>
+        <button class="but2" onclick="window.location.reload()">limpar</button>
+        <p class="res">Área do Círculo:</p>
+        <span id="res">Resultado</span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Estilo.css" />
+    <script src="javascript/script.js" defer></script>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div class="pri">
+      <a href="index.html"><button class="bot1">Retângulo</button></a>
+      <a href="triangulo.html"><button class="bot1">Triângulo</button></a>
+      <a href="circulo.html"><button class="bot1">Círculo</button></a>
+      <a href="Combustivel.html"><button class="bot1">Combustível</button></a>
+      <div class="cal">
+        <input id="eta" type="number" placeholder="Digite" />
+        <input id="gas" type="number" placeholder="Digite" />
+        <h1 class="txt">Etanol</h1>
+        <h1 class="txt2">Gasolina</h1>
+
+        <button class="but" onclick="combustivel()">Calcular</button>
+        <button class="but2" onclick="window.location.reload()">limpar</button>
+        <p class="res">Melhor escolher:</p>
+        <span id="res">Resultado</span>
+      </div>
+    </div>
+  </body>
+</html>
